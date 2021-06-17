@@ -1,17 +1,19 @@
 {
-  "name": "deversifi",
+  "name": "deversifi-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/main.js",
+    "test": "mocha"
   },
-  "author": "",
+  "author": "Pavel Fediukovich",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "chai": "^4.3.4",
     "mocha": "^9.0.0"
   }
 }
